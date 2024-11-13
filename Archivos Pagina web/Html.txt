@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="main.css">
+    <title>Tadeo Art Gallery Perú</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="promotext">
+                <h3>TADEO ART GALLERY</h3>
+                <h3>BIENVENIDO</h3>
+                <p>Galeria de arte-Perú</p>
+            </div>
+
+            <div class="login">
+                <h4>Iniciar sesión</h4>
+                <p>Ingresa a tu cuenta</p>
+                <div class="logbox">
+                <div class="inputbox">
+                        
+                <input type="text">
+                <span>Usuario</span>
+            </div>
+            
+            </div>
+
+                <div class="inputbox">    
+                <input type="password">
+                        <span>Contraseña</span>
+            </div>
+
+            <div>
+                <button type="submit" class="button">Entrar</button>
+            </div>
+
+            </div>
+                <div class="bcimage"></div>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

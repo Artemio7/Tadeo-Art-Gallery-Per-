@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+
+section {
+    position:relative;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url("Imagen/Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 14%;
+    
+}
+
+.promotext {
+    padding-top: 30%;
+    color: #ddedff;
+    text-shadow: 1px 1px 11px #022e77;
+}
+
+.promotext h3 {
+    font-size: 3rem; /* Tamaño de letra mediano */
+    line-height: 1;
+}
+
+.promotext p {
+    font-size: 2rem; /* Tamaño de letra mediano para el párrafo */
+    font-weight: 300;
+    margin-top: 70px; /* Ajuste del margen superior */
+}
+
+.login{
+    
+    width: 25%;
+    position: absolute;
+    padding: 10px 10px; 
+    text-align: center;                        
+    box-shadow: 3px 6px 30px 8px rgb(58 58 58 / 15%);
+    background: rgb(0, 52, 134/ 50%);
+    right: 5%;
+    bottom: 5%;
+    height: 85%;
+    border-radius: 4px; 
+    border: 1px solid;
+    border-top-color: #56aaff;
+    border-left-color: #56aaff;
+    border-bottom-color: #00000030;
+    border-right-color: #00000030;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+
+.login h4 {
+    font-size: 30px; /* Tamaño de letra mediano para el encabezado */
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #fdfdfd;
+}
+
+.login p {
+    font-size: 1rem; /* Tamaño de letra mediano para el párrafo dentro de .ingresar */
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.inputbox{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+input {
+    font-size: 17px; /* Puedes ajustar el tamaño según tus necesidades */
+  }
+
+
+.inputbox input {
+        font-size: 12px; /* Ajusta el tamaño según tus necesidades */
+        font-weight: 100;
+        letter-spacing: 1px;
+        color: #eff9ff;
+        border: none;
+        border-bottom: 1px solid #abe0ff;
+        background-color: transparent;
+        padding: 7px 7px;
+        outline: none;
+}
+    
+
+.inputbox span{
+    position: absolute;
+    left: 10px;
+    bottom: 40px;
+    letter-spacing: 10px;
+    color: #ffffff;
+}
+
+.button{
+
+    position: relative;
+    cursor: pointer;
+    background: #e7d50c;
+    color: #ffffff;
+    font-weight: 300;
+    border: none;
+    font-size: 17px;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    border-radius: 7px;
+    box-shadow: 0 3px 8px 2px rgb(60 60 60/30%);
+    margin-top: 7px;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 10px;
+}
+
+button:hover{
+    background-color: #4286df;
+    box-shadow: 0 3px 8px 2px rgb(99 99 99 / 30%);
+    transition: all 0.2s ease-in-out;
+}

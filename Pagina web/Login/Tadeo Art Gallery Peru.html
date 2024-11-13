@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="stilosL.css">
+    <script src="scriptL.js"></script>
+    <title>Tadeo Art Gallery Perú</title>
+
+
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="promotext">
+                <h3>TADEO ART GALLERY</h3>
+                <h3>BIENVENIDO</h3>
+                <p>Galeria de arte-Perú</p>
+            </div>
+
+            <div class="login">
+                <h4>Iniciar sesión</h4>
+                <div class="logbox">
+                    <div class="inputbox">
+                        <div class="input-box">
+                            <label class="label">Ingresar correo</label>
+                            <input type="email" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label class="label">Ingresar Contraseña</label>
+                            <span class="toggle-password" onclick="togglePassword('password')">👀</span>
+                            <input type="password" id="password" required>
+                        </div>   
+                        <a href="Restablecer contraseña.html">Restablecer contraseña</a>
+                    </div>
+
+                    <div>
+                        <button type="button" class="button" onclick="redirectToRegistro1()">Entrar con Google</button>
+                        <button type="button" class="button" onclick="redirectToRegistro2()">Entrar con Apple</button>
+                        <button type="button" class="button" onclick="redirectToRegistro3()">Entrar</button>
+                        <button type="button" class="button" onclick="redirectToRegistro4()">Modo invitado</button>
+                        <!-- Cambié el tipo de botón para evitar el envío del formulario -->
+                        <button type="button" class="button" onclick="redirectToRegistro5()">Registrate</button>
+                    </div>
+                </div>
+
+                <div class="bcimage"></div>
+            </div>
+
+            <script>
+                function togglePassword(inputId) {
+                    var passwordInput = document.getElementById(inputId);
+                    if (passwordInput.type === "password") {
+                        passwordInput.type = "text";
+                    } else {
+                        passwordInput.type = "password";
+                    }
+                }
+
+                function redirectToRegistro() {
+                    // Cambia la URL según la ubicación de tu archivo registro.html
+                    window.location.href = "#";
+                }
+                function redirectToRegistro() {
+                    // Cambia la URL según la ubicación de tu archivo registro.html
+                    window.location.href = "#";
+                }
+                function redirectToRegistro3() {
+                    // Cambia la URL según la ubicación de tu archivo registro.html
+                    window.location.href = "Inicio-Tadeo Art Gallery.html";
+                }
+                function redirectToRegistro4() {
+                    // Cambia la URL según la ubicación de tu archivo registro.html
+                    window.location.href = "Inicio-Tadeo Art Gallery.html";
+                }
+                function redirectToRegistro5() {
+                    // Cambia la URL según la ubicación de tu archivo registro.html
+                    window.location.href = "Registro-TAG.html";
+                }
+            </script>
+        </div>
+    </section>
+</body>
+</html>

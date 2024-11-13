@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Bruno Ace SC', sans-serif;
+}
+
+body {
+    background-color: #fbf4eb;
+    min-height: 50vh;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.navbar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 0 20px;
+    text-transform: capitalize;
+    color: #222222;
+    font-size: 18px;
+}
+
+li a {
+    font-size: 18px;
+    color: #222222;
+    text-transform: capitalize;
+}
+
+.swiper {
+    margin-top: 40px;
+}
+
+.swiper-slide {
+    margin-top: 10px;
+    margin-right: 70px; /* Agregamos un margen derecho */
+    background-color: #FFFFFF;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 420px;
+    width: 295px;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 295px;
+    border-radius: 10px;
+    height: 420px;
+}
+
+.swiper-txt {
+    position: absolute;
+    padding: 25px;
+}
+
+.swiper-txt h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #222222;
+}
+
+.desktop{
+    text-align: center;
+    z-index: 1;
+}
+.desktop img{
+    width: 800px;
+}
+
+@media(max-width: 991px) {
+    .navbar {
+        padding: 30px;
+    }
+    .swiper {
+        padding: 0 70px;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+    .desktop{
+        padding: 30px;
+    }
+    .desktop img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+.swiper-txt h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #222222;
+}
+
+.desktop {
+    text-align: center;
+    z-index: 1;
+}
+
+.desktop img {
+    width: 800px;
+}
+
+@media(max-width: 991px) {
+    .navbar {
+        padding: 30px;
+    }
+    .swiper {
+        padding: 0 70px;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+    .desktop {
+        padding: 30px;
+    }
+    .desktop img {
+        width: 100%;
+    }
+}
+
+
+
+
