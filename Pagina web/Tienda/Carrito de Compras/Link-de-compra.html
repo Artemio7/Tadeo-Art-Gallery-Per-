@@ -1,150 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Comprar en Tadeo Art Gallery </title>
-
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-
-    <!--Box icons-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
-
-    <link rel="stylesheet" href="stilosC.css" />
-  </head>
-  <body>
-    <!--Navegation-->
-    <nav class="nav">
-      <div class="nav__center container">
-        <div class="nav__logo">
-					<h1>TADEO ART GALLERY  <span>PERU</span></h1>
-				</div>
-				<ul class="nav__list">
-					<span>
-						<i class="bx bxs-watch"></i>
-					</span>
-					<div class="carrito__icon">
-						<i class="bx bx-cart"></i>
-						<span class="item__total">0</span>
-					</div>
-				</ul>
-      </div>
-    </nav>
-
-    <!--Filter-->
-    <section class="filter">
-      <div class="grid">
-        <div class="div">
-          <label for="buscar"><span><i class="bx bx-search"></i></span></label>
-          <input type="text" id="buscar" placeholder="Buscar nuevas cuadros...">
-        </div>
-        <div class="category">
-          <select id="category" onclick="categoryValue()">
-            <option value="">Pintura</option>
-            <option value="rolex">Escultura</option>
-            <option value="omega">Fotografia</option>
-            <option value="audemars">Impresiones</option>
-            <option value="rolexDay">Dibujo y grabado</option>
-            <option value="hublot">Arte Visuales</option>
-            <option value="tag">Arte textiles</option>
-            <option value="tag">Ceramica y Vidrio</option>
-            <option value="tag">Pintura Automotriz</option>
-          </select>
-        </div>
-      </div>
-    </section>
-
-    <!--Productos-->
-    <section class="productos">
-      <div class="productos__center">
-        <!-- <div class="producto">
-          <div class="image__container">
-            <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="">
-          </div>
-          <div class="producto__footer">
-            <h1>Rejoles Originales</h1>
-            <div class="rating">
-              <span>
-                <i class="bx bxs-star"></i>
-              </span>
-              <span>
-                <i class="bx bxs-star"></i>
-              </span>
-              <span>
-                <i class="bx bxs-star"></i>
-              </span>
-              <span>
-                <i class="bx bxs-star"></i>
-              </span>
-              <span>
-                <i class="bx bx-star"></i>
-              </span>
-            </div>
-            <div class="price">$102.00</div>
-          </div>
-          <div class="bottom">
-            <div class="btn__group">
-              <a href="#" class="btn addToCart">Añadir carrito</a>
-              <a href="producto-detalles.html" class="btn view">Vista</a>
-            </div>
-          </div>
-        </div> -->
-      </div>
-    </section>
-
-    <!--Carrito-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TADEO ART GALLERY</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="stilosC.css">
     
-    <section class="carrito__overlay">
-      <div class="carrito">
-        <span class="close__carrito">
-          <i class="bx bx-x"></i>
-        </span>
-        <h1>Su Carrito</h1>
-
-        <div class="carrito__center">
-
-          <!-- <div class="carrito__item">
-
-            <img src="https://cdn4.chrono24.com/images/topmodels/2875-7wlcl6ogfoc0qxg22ox6up9m-Original.png?auto=compress&amp;h=305" alt="reloj">
-            <div>
-              <h3>Relojes Originales </h3>
-              <p class="price">$122</p>
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container header-top-content">
+                <span>TADEO ZAVALETA DE LA BARRA</span>
+                <span>ANDREA FACUNDO PALACIOS</span>
+                <span>CUADROS DE ALTA CALIDAD</span>
+            
+                
             </div>
-            <div>
-              <span>
-                <i class="bx bxs-up-arrow"></i>
-              </span>
-              <p>1</p>
-              <span>
-                <i class="bx bxs-down-arrow"></i>
-              </span>
+        </div>
+        <div class="container header-main">
+            <div class="logo">TADEO ART GALLERY PERÚ</div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar cuadros...">
+                <button><i class="fas fa-search"></i></button>
             </div>
-            <div>
-              <span class="remove__item">
-                <i class="bx bx-trash"></i>
-              </span>
+            <div class="nav-icons">
+                <a href="#account"><i class="fas fa-user"></i></a>
+                <a href="#wishlist"><i class="fas fa-heart"></i></a>
+                <a href="#cart"><i class="fas fa-shopping-cart"></i></a>
             </div>
+            <div class="mobile-menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><a href="#home">Artistas</a></li>
+                    <li>
+                        <a href="#categories">Categorías <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#electronics">Electrónica</a>
+                            <a href="#clothing">Ropa</a>
+                            <a href="#home-garden">Hogar y Jardín</a>
+                        </div>
+                    </li>
+                    <li><a href="#new-arrivals">Novedades</a></li>
+                    <li><a href="#deals">Ofertas</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/1200x400?text=Oferta+1" alt="Oferta 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/1200x400?text=Oferta+2" alt="Oferta 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/1200x400?text=Oferta+3" alt="Oferta 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/1200x400?text=Oferta+4" alt="Oferta 4">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/1200x400?text=Oferta+5" alt="Oferta 5">
+            </div>
+            <div class="carousel-slide">
+                <img src="https://via.placeholder.com/1200x400?text=Oferta+6" alt="Oferta 6">
+            </div>
+
+        </div>
+        <button class="carousel-button prev">&#10094;</button>
+        <button class="carousel-button next">&#10095;</button>
+        <div class="carousel-dots"></div>
+    </div>
+
+
+    <!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+    <span class="close-lightbox">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+    <div id="lightbox-caption"></div>
+</div>
+
+<!-- Sección de productos con imágenes para el lightbox -->
+<section class="product-section container">
+    <h2> Diseños exclusivos para la sala</h2>
+    <div class="product-grid">
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Producto1" alt="Producto 1" onclick="openLightbox(this)">
+            <h3>Producto 1</h3>
+            <p>$19.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Producto2" alt="Producto 2" onclick="openLightbox(this)">
+            <h3>Producto 2</h3>
+            <p>$24.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Producto3" alt="Producto 3" onclick="openLightbox(this)">
+            <h3>Producto 3</h3>
+            <p>$29.99</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/300x300?text=Producto4" alt="Producto 4" onclick="openLightbox(this)">
+            <h3>Producto 4</h3>
+            <p>$34.99</p>
+        </div>
+    </div>
+</section>
+
+
+<div class="slide">
 
             
-          </div> -->
+    <div class="item" style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+        <div class="content">
+            <div class="name">INSCRIPCIONES DE ARTISTAS</div>
+            <div class="des">Nosotros si creemos que tu puedes disponible para niños-jovenes-adultos </div>
+            <button>Inscribirme</button>
         </div>
+   
 
-        <div class="carrito__footer">
-            <h3>Total: $ <span class="carrito__total">0</span></h3>
-            <button class="clear__carrito btn">remover carrito</button>
-        </div>
-      </div>
-    </section>
+</div>
 
-    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+<div class="button">
+    <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+</div>
+
     <script src="scriptC.js"></script>
-  </body>
+    
+</body>
 </html>
